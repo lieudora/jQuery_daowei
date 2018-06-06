@@ -1,0 +1,414 @@
+#wrap{
+  width: 100%;
+  height: 100%;
+  .header{ // 头
+    width: 100%;
+    height: 62px;
+    font-size: 16px;
+    .header_content{
+      z-index: 5;
+      width: 100%;
+      height: 62px;
+      position: fixed;
+      background: white;
+      opacity: 0.8;
+      .header_nav{
+        width: 1200px;
+        height: 62px;
+        margin: auto;
+        .logo{
+          display: inline-block;
+          width: 280px;
+          padding: 10px 10px 0 10px;
+        }
+        .nav{
+          display: inline-block;
+          width: 730px;
+          height: 42px;
+          float: right;
+          margin-right:20px;
+          .nav_content{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            margin: 10px 20px 0 0;
+            .nav_city{
+              float: left;
+              a{
+                display: inline-block;
+                width: 100%;
+                height: 42px;
+                text-align: center;
+                line-height: 42px;
+                color: #333333;
+                span{
+                  font-weight: 700;
+                }
+              }
+            }
+            .nav_lists{
+              float: right;
+              li{
+                float: left;
+                width: 97.88px;
+                height: 42px;
+                margin-top: 12px;
+                &:last-child{
+                  background:#e94840 ;
+                  width: 80px;
+                  height: 30px;
+                  border-radius: 5px;
+                  margin-top: 6px;
+                }
+                a{
+                  display: inline-block;
+                  width: 100%;
+                  height: 42px;
+                  text-align: center;
+                  color: #333333;
+                  font-weight: 700;
+                  &.shanghu{
+                    margin-top: 8px;
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .carousel{ // 轮播
+    width: 100%;
+    height: 420px;
+    .carousel_content{
+      position: relative;
+      width: 100%;
+      height: 420px;
+      overflow: hidden;
+      .carousel_wrap{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 420px;
+        .carousel_ul{
+          position: relative;
+          width: 100%;
+          height: 420px;
+          li{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            a{
+              display: block;
+              width: 100%;
+              height: 100%;
+              img{
+                display: block;
+                height: 100%;
+                margin-left: -320px;
+              }
+            }
+          }
+        }
+        .hd{
+          position: absolute;
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          z-index: 1;
+          bottom: 0;
+          left: 0;
+          ul{
+            width: 100%;
+            height: 30px;
+            li{
+              display: inline-block;
+              width: 10px;
+              height: 10px;
+              border-radius: 50%;
+              background: #7e8c8d;
+              &.on{
+                background: white;
+              }
+            }
+          }
+        }
+      }
+      .left_nav{
+        position: relative;
+        width: 180px;
+        height: 420px;
+        background: #757881;
+        margin: -420px 0 0 60px;
+        .nav_content{
+          width: 100%;
+          height: 100%;
+          ul{
+            width: 100%;
+            height: 100%;
+            &>li{
+              width: 100%;
+              height: 42px;
+              font-size: 16px;
+
+              line-height: 42px;
+              &>a{
+                display: block;
+                text-align: center;
+                width: 100%;
+                color: #fff;
+                letter-spacing: 2px;
+                font-weight: bold;
+                .iconfont{
+                  margin-right: 10px;
+                }
+              }
+              &>ul{
+                width: 170px;
+                height: 420px;
+                background: white;
+                opacity: 0.9;
+                margin: -42px 0 0 180px;
+                li{
+                  width: 170px;
+                  height: 42px;
+                  a{
+                    display: block;
+                    text-align: center;
+                    color: #333333;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .home{ // 家庭保洁
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+    .home_content{
+      width: 90%;
+      height: 440px;
+      .home_title{
+        h3{
+          width: 90%;
+          height: 31px;
+          font-size: 28px;
+          color: #3d3838;
+          font-family:'Microsoft YaHei';
+          text-align: center;
+          margin: auto;
+        }
+        span{
+          width: 100%;
+          height: 30px;
+          font-family: '幼圆';
+          display: block;
+          text-align: center;
+          font-size: 22px;
+          margin-top: 15px ;
+          a{
+            color:#3d3838;
+          }
+        }
+      }
+      .home_details{
+        width: 100%;
+        height: 345px;
+        .lookMore{
+          span{
+            display: block;
+            float: right;
+            font-size: 20px;
+            margin-top:-25px;
+            a{
+              color:#898989;
+            }
+          }
+        }
+        .row{
+          margin-top: 20px;
+          width: 104%;
+          height: 100%;
+          .shop_list{
+            width: 230px;
+            height: 345px;
+            border: 1px solid #eaeaea;
+            box-sizing: border-box;
+            margin-left: 4px;
+            display: inline-block;
+            img{
+              width: 210px;
+              height: 210px;
+              display: block;
+              padding: 10px;
+            }
+            .shop_name{
+              font-size: 16px;
+              font-weight: 700;
+              height: 28px;
+              color: #000;
+              margin: 0 10px;
+            }
+            .details{
+              color: #929292;
+              font-size: 13px;
+              height: 58px;
+              line-height: 18px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              margin: 0 10px;
+            }
+            .shop_price{
+              color: #fb474f;
+              .price{
+                font-size: 20px;
+                color: #fb474f;
+                font-weight: 600;
+                margin-left: 10px;
+              }
+              .btn{
+                float: right;
+                width: 76px;
+                height: 24px;
+                text-align: center;
+                background: #fb474f;
+                color: white;
+                font-size: 14px;
+                line-height: 24px;
+                border-radius: 5px;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .home_name{
+      border:1px solid #e5e5e5;
+      width: 94%;
+      padding: 10px 0;
+      a{
+        margin: 0 6px;
+        color: #3d3838;
+        display: inline-block;
+        height: 32px;
+        line-height: 32px;
+      }
+    }
+  }
+  .serve{
+    margin-top: 85px;
+    .serve_title{
+      h2{
+        height: 33px;
+        font-size: 30px;
+        font-family: '微软雅黑';
+        font-weight: 800;
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+        span{
+          font-size: 30px;
+          display: inline-block;
+          color: #fb474f;
+        }
+      }
+      &>span{
+        height: 25px;
+        display: block;
+        font-size: 22px;
+        color: #3d3838;
+        text-align: center;
+      }
+      .serve_point{
+        width: 50%;
+        height: 66px;
+        margin: auto;
+        font-size: 18px;
+        font-family: '微软雅黑';
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & .iconfont{
+          color: #3FB53B;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .hot_city{
+    width: 100%;
+    height: 120px;
+    .city{
+      width: 12%;
+      display: inline-block;
+      text-align: center;
+      vertical-align:middle;
+      margin-top: -123px;
+      &>span{
+        display: inline-block;
+        font-size: 18px;
+        font-family: "微软雅黑";
+        font-weight: 600;
+      }
+    }
+    .city_lists{
+      width: 87%;
+      display: inline-block;
+      a{
+        width: 8.5%;
+        height: 30px;
+        line-height: 30px;
+        color: #898989;
+        display: inline-block;
+        font-family: "微软雅黑";
+        font-weight: 200;
+        text-align: center;
+      }
+    }
+  }
+  .partner{
+    width: 100%;
+    background: #FBF8F8;
+    &>p{
+      width: 100%;
+      height: 50px;
+      font-weight: 600;
+      font-size: 18px;
+      color: #1d1515;
+      margin-left: 40px;
+      line-height: 50px;
+    }
+    .partner_img{
+      width: 100%;
+      height: 100px;
+      padding-left: 15px;
+      line-height: 100px;
+      &>li{
+        display: inline-block;
+        width: 120px;
+        height: 60px;
+        background: white;
+        text-align: center;
+        line-height: 60px;
+        margin-left: 10px;
+        &>img{
+          width: 100px;
+          content: "";
+          display: inline-block;
+          vertical-align: middle;
+
+        }
+      }
+    }
+  }
+}
+

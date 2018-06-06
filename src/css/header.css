@@ -1,0 +1,405 @@
+#wrap {
+  width: 100%;
+  height: 100%;
+}
+#wrap .header {
+  width: 100%;
+  height: 62px;
+  font-size: 16px;
+}
+#wrap .header .header_content {
+  z-index: 5;
+  width: 100%;
+  height: 62px;
+  position: fixed;
+  background: white;
+  opacity: 0.8;
+}
+#wrap .header .header_content .header_nav {
+  width: 1200px;
+  height: 62px;
+  margin: auto;
+}
+#wrap .header .header_content .header_nav .logo {
+  display: inline-block;
+  width: 280px;
+  padding: 10px 10px 0 10px;
+}
+#wrap .header .header_content .header_nav .nav {
+  display: inline-block;
+  width: 730px;
+  height: 42px;
+  float: right;
+  margin-right: 20px;
+}
+#wrap .header .header_content .header_nav .nav .nav_content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 10px 20px 0 0;
+}
+#wrap .header .header_content .header_nav .nav .nav_content .nav_city {
+  float: left;
+}
+#wrap .header .header_content .header_nav .nav .nav_content .nav_city a {
+  display: inline-block;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  color: #333333;
+}
+#wrap .header .header_content .header_nav .nav .nav_content .nav_city a span {
+  font-weight: 700;
+}
+#wrap .header .header_content .header_nav .nav .nav_content .nav_lists {
+  float: right;
+}
+#wrap .header .header_content .header_nav .nav .nav_content .nav_lists li {
+  float: left;
+  width: 97.88px;
+  height: 42px;
+  margin-top: 12px;
+}
+#wrap .header .header_content .header_nav .nav .nav_content .nav_lists li:last-child {
+  background: #e94840 ;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 6px;
+}
+#wrap .header .header_content .header_nav .nav .nav_content .nav_lists li a {
+  display: inline-block;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  color: #333333;
+  font-weight: 700;
+}
+#wrap .header .header_content .header_nav .nav .nav_content .nav_lists li a.shanghu {
+  margin-top: 8px;
+  color: white;
+}
+#wrap .carousel {
+  width: 100%;
+  height: 420px;
+}
+#wrap .carousel .carousel_content {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+#wrap .carousel .carousel_content .carousel_wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 420px;
+}
+#wrap .carousel .carousel_content .carousel_wrap .carousel_ul {
+  position: relative;
+  width: 100%;
+  height: 420px;
+}
+#wrap .carousel .carousel_content .carousel_wrap .carousel_ul li {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#wrap .carousel .carousel_content .carousel_wrap .carousel_ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#wrap .carousel .carousel_content .carousel_wrap .carousel_ul li a img {
+  display: block;
+  height: 100%;
+  margin-left: -320px;
+}
+#wrap .carousel .carousel_content .carousel_wrap .hd {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+}
+#wrap .carousel .carousel_content .carousel_wrap .hd ul {
+  width: 100%;
+  height: 30px;
+}
+#wrap .carousel .carousel_content .carousel_wrap .hd ul li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #7e8c8d;
+}
+#wrap .carousel .carousel_content .carousel_wrap .hd ul li.on {
+  background: white;
+}
+#wrap .carousel .carousel_content .left_nav {
+  position: relative;
+  width: 180px;
+  height: 420px;
+  background: #757881;
+  margin: -420px 0 0 60px;
+}
+#wrap .carousel .carousel_content .left_nav .nav_content {
+  width: 100%;
+  height: 100%;
+}
+#wrap .carousel .carousel_content .left_nav .nav_content ul {
+  width: 100%;
+  height: 100%;
+}
+#wrap .carousel .carousel_content .left_nav .nav_content ul > li {
+  width: 100%;
+  height: 42px;
+  font-size: 16px;
+  line-height: 42px;
+}
+#wrap .carousel .carousel_content .left_nav .nav_content ul > li > a {
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+#wrap .carousel .carousel_content .left_nav .nav_content ul > li > a .iconfont {
+  margin-right: 10px;
+}
+#wrap .carousel .carousel_content .left_nav .nav_content ul > li > ul {
+  width: 170px;
+  height: 420px;
+  background: white;
+  opacity: 0.9;
+  margin: -42px 0 0 180px;
+}
+#wrap .carousel .carousel_content .left_nav .nav_content ul > li > ul li {
+  width: 170px;
+  height: 42px;
+}
+#wrap .carousel .carousel_content .left_nav .nav_content ul > li > ul li a {
+  display: block;
+  text-align: center;
+  color: #333333;
+}
+#wrap .home {
+  width: 100%;
+  height: 100%;
+  margin: 50px;
+}
+#wrap .home .home_content {
+  width: 90%;
+  height: 440px;
+}
+#wrap .home .home_content .home_title h3 {
+  width: 90%;
+  height: 31px;
+  font-size: 28px;
+  color: #3d3838;
+  font-family: 'Microsoft YaHei';
+  text-align: center;
+  margin: auto;
+}
+#wrap .home .home_content .home_title span {
+  width: 100%;
+  height: 30px;
+  font-family: '幼圆';
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px ;
+}
+#wrap .home .home_content .home_title span a {
+  color: #3d3838;
+}
+#wrap .home .home_content .home_details {
+  width: 100%;
+  height: 345px;
+}
+#wrap .home .home_content .home_details .lookMore span {
+  display: block;
+  float: right;
+  font-size: 20px;
+  margin-top: -25px;
+}
+#wrap .home .home_content .home_details .lookMore span a {
+  color: #898989;
+}
+#wrap .home .home_content .home_details .row {
+  margin-top: 20px;
+  width: 104%;
+  height: 100%;
+}
+#wrap .home .home_content .home_details .row .shop_list {
+  width: 230px;
+  height: 345px;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  margin-left: 4px;
+  display: inline-block;
+}
+#wrap .home .home_content .home_details .row .shop_list img {
+  width: 210px;
+  height: 210px;
+  display: block;
+  padding: 10px;
+}
+#wrap .home .home_content .home_details .row .shop_list .shop_name {
+  font-size: 16px;
+  font-weight: 700;
+  height: 28px;
+  color: #000;
+  margin: 0 10px;
+}
+#wrap .home .home_content .home_details .row .shop_list .details {
+  color: #929292;
+  font-size: 13px;
+  height: 58px;
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 10px;
+}
+#wrap .home .home_content .home_details .row .shop_list .shop_price {
+  color: #fb474f;
+}
+#wrap .home .home_content .home_details .row .shop_list .shop_price .price {
+  font-size: 20px;
+  color: #fb474f;
+  font-weight: 600;
+  margin-left: 10px;
+}
+#wrap .home .home_content .home_details .row .shop_list .shop_price .btn {
+  float: right;
+  width: 76px;
+  height: 24px;
+  text-align: center;
+  background: #fb474f;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#wrap .home .home_name {
+  border: 1px solid #e5e5e5;
+  width: 94%;
+  padding: 10px 0;
+}
+#wrap .home .home_name a {
+  margin: 0 6px;
+  color: #3d3838;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+}
+#wrap .serve {
+  margin-top: 85px;
+}
+#wrap .serve .serve_title h2 {
+  height: 33px;
+  font-size: 30px;
+  font-family: '微软雅黑';
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+}
+#wrap .serve .serve_title h2 span {
+  font-size: 30px;
+  display: inline-block;
+  color: #fb474f;
+}
+#wrap .serve .serve_title > span {
+  height: 25px;
+  display: block;
+  font-size: 22px;
+  color: #3d3838;
+  text-align: center;
+}
+#wrap .serve .serve_title .serve_point {
+  width: 50%;
+  height: 66px;
+  margin: auto;
+  font-size: 18px;
+  font-family: '微软雅黑';
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#wrap .serve .serve_title .serve_point .iconfont {
+  color: #3FB53B;
+  font-weight: 700;
+}
+#wrap .hot_city {
+  width: 100%;
+  height: 120px;
+}
+#wrap .hot_city .city {
+  width: 12%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: -123px;
+}
+#wrap .hot_city .city > span {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  font-weight: 600;
+}
+#wrap .hot_city .city_lists {
+  width: 87%;
+  display: inline-block;
+}
+#wrap .hot_city .city_lists a {
+  width: 8.5%;
+  height: 30px;
+  line-height: 30px;
+  color: #898989;
+  display: inline-block;
+  font-family: "微软雅黑";
+  font-weight: 200;
+  text-align: center;
+}
+#wrap .partner {
+  width: 100%;
+  background: #FBF8F8;
+}
+#wrap .partner > p {
+  width: 100%;
+  height: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1d1515;
+  margin-left: 40px;
+  line-height: 50px;
+}
+#wrap .partner .partner_img {
+  width: 100%;
+  height: 100px;
+  padding-left: 15px;
+  line-height: 100px;
+}
+#wrap .partner .partner_img > li {
+  display: inline-block;
+  width: 120px;
+  height: 60px;
+  background: white;
+  text-align: center;
+  line-height: 60px;
+  margin-left: 10px;
+}
+#wrap .partner .partner_img > li > img {
+  width: 100px;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
