@@ -1,0 +1,165 @@
+#wrap {
+  width: 100%;
+  height: 100%;
+}
+#wrap .header {
+  width: 100%;
+  height: 62px;
+  font-size: 16px;
+}
+#wrap .header .header_content {
+  z-index: 5;
+  width: 100%;
+  height: 62px;
+  position: fixed;
+  background: white;
+  opacity: 0.9;
+}
+#wrap .header .header_content .header_nav {
+  width: 1200px;
+  height: 62px;
+  margin: auto;
+}
+#wrap .header .header_content .header_nav .logo {
+  display: inline-block;
+  width: 280px;
+  padding: 10px 10px 0 10px;
+}
+#wrap .header .header_content .header_nav .nav {
+  display: inline-block;
+  width: 730px;
+  height: 42px;
+  float: right;
+  margin-right: 20px;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 10px 20px 0 0;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_city {
+  float: left;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_city a {
+  display: inline-block;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  color: #333333;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_city a span {
+  font-weight: 700;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_city a .cut_city:hover {
+  color: #e94840;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists {
+  float: right;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists li {
+  float: left;
+  width: 97.88px;
+  height: 42px;
+  margin-top: 12px;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists li:last-child {
+  background: #e94840 ;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 6px;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists li a {
+  display: inline-block;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  color: #333333;
+  font-weight: 700;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists li a.shanghu p {
+  font-weight: 700;
+  margin-top: 8px;
+  color: white;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists li a:hover {
+  color: #e94840;
+}
+#wrap .service {
+  width: 100%;
+  height: 100%;
+  background: #FBF8F8;
+}
+#wrap .service .service_content {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+#wrap .service .service_content .service_lists h2 {
+  height: 85px;
+  line-height: 85px;
+  font-size: 18px;
+  font-weight: 700;
+}
+#wrap .service .service_content .service_lists .lists {
+  width: 970px;
+  display: inline-block;
+}
+#wrap .service .service_content .service_lists .lists .row {
+  width: 100%;
+  height: 300px;
+}
+#wrap .service .service_content .service_lists .lists .row li {
+  width: 230px;
+  height: 100%;
+  border: 1px solid #eaeaea;
+  display: inline-block;
+  margin-right: 5px;
+}
+#wrap .service .service_content .service_lists .lists .row li .row_title {
+  width: 100%;
+}
+#wrap .service .service_content .service_lists .lists .row li .row_title img {
+  display: block;
+  width: 210px;
+  height: 210px;
+  margin: 10px auto 0;
+}
+#wrap .service .service_content .service_lists .lists .row li .row_bottom .service_name {
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 0 0 10px;
+}
+#wrap .service .service_content .service_lists .lists .row li .row_bottom .service_name .icon-ziyuan {
+  color: #929292;
+  font-size: 14px;
+}
+#wrap .service .service_content .service_lists .lists .row li .row_bottom .service_order {
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#wrap .service .service_content .service_lists .lists .row li .row_bottom .service_order span {
+  font-size: 12px;
+  color: #929292;
+}
+#wrap .service .service_content .service_lists .img {
+  float: right;
+  width: 225px;
+}
+#wrap .service .service_content .service_lists .img .tui06 {
+  width: 225px;
+  height: 290px;
+  background: url("../image/tuijianfuwushang_06.jpg") no-repeat;
+  background-size: 100%;
+}
+#wrap .service .service_content .service_lists .img .tui06 img {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  margin: 44px 0 0 45px;
+}

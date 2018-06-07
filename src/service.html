@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>服务商</title>
+  <link rel="shortcut icon" href="http://www.daoway.cn/pcimages/favicon.png">
+  <link rel="stylesheet" href="./css/assets/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/service.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_696317_x6j6jhtszceopqfr.css">
+</head>
+<body>
+  <div id="wrap">
+    <!--头-->
+    <header class="header">
+      <div class="header_content">
+        <div class="header_nav">
+          <!--左边logon-->
+          <div class="logo">
+            <img src="image/logo.png" alt="logo">
+          </div>
+          <!--右边导航-->
+          <nav class="nav">
+            <div class="nav_content">
+              <div class="nav_city">
+                <a href="#">
+                  <img src="image/citypoint.png" alt="">
+                  <span>北京</span>
+                  <span class="cut_city">切换城市</span>
+                </a>
+              </div>
+              <ul class="nav_lists">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">到位APP</a></li>
+                <li><a href="#">服务商</a></li>
+                <li><a href="#">商家入驻</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#" class="shanghu"><p>商家登录</p></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!--服务商-->
+    <div class="service">
+      <div class="service_content">
+        <div class="service_lists">
+          <h2>服务商</h2>
+          <!--列表-->
+          <div class="lists">
+            <ul class="row">
+
+            </ul>
+          </div>
+
+          <!--右边，二维码-->
+          <div class="img">
+            <div class="tui03">
+              <img src="image/tuijianfuwushang_03.jpg" alt="">
+            </div>
+            <div class="tui06">
+              <img src="image/daowayApp.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--服务保障-->
+    <div class="serve">
+      <div class="serve_title">
+        <h2>到位<span>服务</span>保障</h2>
+        <span>到位平台担保交易安全，交易未成功100%退款</span>
+        <div class="serve_point">
+          <div class="optimization">
+            <i class="iconfont icon-gouxuan"></i>
+            <span>优选服务</span>
+          </div>
+          <div class="safeguard">
+            <i class="iconfont icon-gouxuan"></i>
+            <span>全程保障</span>
+          </div>
+          <div class="safety">
+            <i class="iconfont icon-gouxuan"></i>
+            <span>安全无忧</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--热门城市-->
+    <div class="hot_city">
+      <div class="city">
+        <span>热门城市</span>
+      </div>
+      <div class="city_lists">
+        <a href="http://bj.daoway.cn">北京</a>
+        <a href="http://sh.daoway.cn">上海</a>
+        <a href="http://gz.daoway.cn">广州</a>
+        <a href="http://sz.daoway.cn">深圳</a>
+        <a href="http://cd.daoway.cn">成都</a>
+        <a href="http://tj.daoway.cn">天津</a>
+        <a href="http://nj.daoway.cn">南京</a>
+        <a href="http://hz.daoway.cn">杭州</a>
+        <a href="http://cq.daoway.cn">重庆</a>
+        <a href="http://su.daoway.cn">苏州</a>
+        <a href="http://wh.daoway.cn">武汉</a>
+        <a href="http://cs.daoway.cn">长沙</a>
+        <a href="http://jn.daoway.cn">济南</a>
+        <a href="http://zz.daoway.cn">郑州</a>
+        <a href="http://xa.daoway.cn">西安</a>
+        <a href="http://sy.daoway.cn">沈阳</a>
+        <a href="http://fz.daoway.cn">福州</a>
+        <a href="http://xm.daoway.cn">厦门</a>
+        <a href="http://nc.daoway.cn">南昌</a>
+        <a href="http://hf.daoway.cn">合肥</a>
+        <a href="http://nb.daoway.cn">宁波</a>
+        <a href="http://wx.daoway.cn">无锡</a>
+        <a href="http://qd.daoway.cn">青岛</a>
+        <a href="http://dl.daoway.cn">大连</a>
+        <a href="http://dg.daoway.cn">东莞</a>
+        <a href="http://fs.daoway.cn">佛山</a>
+        <a href="http://sjz.daoway.cn">石家庄</a>
+        <a href="http://hrb.daoway.cn">哈尔滨</a>
+        <a href="http://ty.daoway.cn">太原</a>
+        <a href="http://km.daoway.cn">昆明</a>
+        <a href="http://gy.daoway.cn">贵阳</a>
+        <a href="http://nn.daoway.cn">南宁</a>
+        <a href="http://wz.daoway.cn">温州</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.superslide2.com/SuperSlide.2.1.2/jquery.SuperSlide.2.1.2.js"></script>
+<script type="text/javascript" src="../js/template.js"></script>
+<script id="temp3" type="text/html">
+  {{each data}}
+
+    <li>
+      <div class="row_title">
+        <a href="#">
+          <img src={{$value.imgUrl}} alt="">
+        </a>
+      </div>
+      <div class="row_bottom" >
+        <div class="service_name">
+          <i class="iconfont icon-ziyuan"></i>
+          {{$value.title}}
+        </div>
+        <div class="service_order">
+          <span>已接单{{$value.orderCount}}单</span>
+          <span>好评{{$value.positiveRate}}</span>
+        </div>
+      </div>
+    </li>
+
+  {{/each}}
+</script>
+<script type="text/javascript">
+  $(function () {
+    $.get('http://localhost:3000/service',function (data) {
+       console.log(data)
+      $('.row').html(template('temp3',{data:data}))
+    })
+  })
+</script>
+</html>
