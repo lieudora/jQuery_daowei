@@ -1,0 +1,89 @@
+#wrap {
+  width: 100%;
+  height: 100%;
+}
+#wrap .header {
+  width: 100%;
+  height: 62px;
+  font-size: 16px;
+}
+#wrap .header .header_content {
+  z-index: 5;
+  width: 100%;
+  height: 62px;
+  position: fixed;
+  background: white;
+  opacity: 0.9;
+}
+#wrap .header .header_content .header_nav {
+  width: 1200px;
+  height: 62px;
+  margin: auto;
+}
+#wrap .header .header_content .header_nav .logo {
+  display: inline-block;
+  width: 280px;
+  padding: 10px 10px 0 10px;
+}
+#wrap .header .header_content .header_nav .nav {
+  display: inline-block;
+  width: 730px;
+  height: 42px;
+  float: right;
+  margin-right: 20px;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 10px 20px 0 0;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_city {
+  float: left;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_city a {
+  display: inline-block;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  color: #333333;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_city a span {
+  font-weight: 700;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_city a .cut_city:hover {
+  color: #e94840;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists {
+  float: right;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists li {
+  float: left;
+  width: 97.88px;
+  height: 42px;
+  margin-top: 12px;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists li:last-child {
+  background: #e94840;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 6px;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists li a {
+  display: inline-block;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  color: #333333;
+  font-weight: 700;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists li a.shanghu p {
+  font-weight: 700;
+  margin-top: 8px;
+  color: white;
+}
+#wrap .header .header_content .header_nav .nav > .nav_content .nav_lists li a:hover {
+  color: #e94840;
+}
