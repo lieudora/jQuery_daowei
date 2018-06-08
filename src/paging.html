@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/paging.css">
+  <link rel="stylesheet" href="./css/assets/reset.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_696317_zj7x1w5nfdcs1yvi.css">
+</head>
+<body>
+  <div id="paging">
+    <!--头-->
+    <header class="header">
+      <div class="header_content">
+        <div class="header_nav">
+          <!--左边logon-->
+          <div class="logo">
+            <img src="image/logo.png" alt="logo">
+          </div>
+          <!--右边导航-->
+          <nav class="nav">
+            <div class="nav_content">
+              <div class="nav_city">
+                <a href="#">
+                  <img src="image/citypoint.png" alt="">
+                  <span>北京</span>
+                  <span class="cut_city">切换城市</span>
+                </a>
+              </div>
+              <ul class="nav_lists">
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="#">到位APP</a></li>
+                <li><a href="./service.html">服务商</a></li>
+                <li><a href="./enter.html">商家入驻</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#" class="shanghu"><p>商家登录</p></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!--题目-->
+    <div class="title">
+      <h3>
+        e城e家家政
+        <p>营业时间：<b>08:30-18:00</b><p/>
+        <p>家庭保洁 <b class="b"> 06月08日 12:30</b></p>
+
+      </h3>
+      <div class="order">
+        <ul>
+          <li><p>1111</p>成功接单</li>
+          <i class="iconfont icon-vertical_line"></i>
+          <li><p>97% </p>接单率</li>
+          <i class="iconfont icon-vertical_line"></i>
+          <li><p>97% </p>好评率</li>
+        </ul>
+      </div>
+      <div class="brief">
+        <ul>
+          <li><a href="#"> 服务项目</a></li>
+          <li><a href="#"> 商家简介</a></li>
+          <li><a href="#"> 用户评论</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!--内容-->
+    <div class="paging_content">
+      <div class="content ">
+
+        <!--左边-->
+        <div class="left">
+          <div class="lefe_img">
+            <img src="image/bao1.jpg" alt="pic">
+          </div >
+          <div class="clean_name">
+            <p class="name"> 家庭保洁 </p>
+            <span>
+                 <p class="price"> 价格 <b> 30 </b> <b class="unit">元/小时</b></p>
+              </span>
+            <p class="cost"> 原价 <b> 50元 </b> </p>
+            <p class="discounts"> 优惠 <b> 首单立减10元 </b> </p>
+            <p class="individual"> 已售 <b> 2342 </b> </p>
+          </div>
+          <!--项目描述-->
+          <div class="project">
+            <div class="project_content">
+              <!--题目-->
+              <b>商家简介</b>
+              <p>232432</p>
+              <b>用户评论 </b>
+              <span class="user_comment">(1232条评论)</span>
+              <div class="comment">
+                <div class="comment_img">
+                  <img src="image/fuwushangimg.png" alt="" style="width: 40px;height: 40px">
+                </div>
+                <ul>
+                  <li>洁***</li>
+                  <li>
+                    <span>
+                      <span>
+                        <img src="" alt="" style="height: 10px;width: 100px">
+                        <img src="" alt="" style="height: 10px;width: 100px">
+                        <img src="" alt="" style="height: 10px;width: 100px">
+                        <img src="" alt="" style="height: 10px;width: 100px">
+                        <img src="" alt="" style="height: 10px;width: 100px">
+                      </span>
+                    </span>
+                  </li>
+                  <li>本人每隔两天请阿姨服务一次，对公司的服务越来越不满意。之前几次感觉还不错，后来公司以在到位上不能指定阿姨为由</li>
+                  <li>
+                    <img src="image/position.jpg" alt="" style="width: 9px;height: 11px">
+                    北京  大兴区
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!--右边-->
+        <div class="right">
+
+        </div>
+      </div>
+
+    <div class="page">
+      <div class="page_bar">
+        <div class="last">
+          <a href="#"> < 上一页</a>
+        </div>
+        <div class="pagination">
+          <a href="#" class="num">1</a>
+          <a href="#" class="num">2</a>
+          <a href="#" class="num">3</a>
+          <a href="#" class="num">4</a>
+          <a href="#" class="num">5</a>
+          <a href="#" class="num">6</a>
+          <a href="#" class="num">7</a>
+          <a href="#" class="num">8</a>
+          <a href="#" class="num">9</a>
+          <a href="#" class="num">10</a>
+          ... &nbsp;
+        </div>
+        <div class="next">
+          <a href="#"> 下一页 > </a>
+        </div>
+      </div>
+     </div>
+    </div>
+
+  </div>
+</body>
+<script type="text/javascript" src="../js/jquery-1.10.1.js"></script>
+<script type="text/javascript" src="../js/template.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+<script type="text/javascript">
+  $(function () {
+   // 发请求
+    $.get('http://localhost:3000/comments?page=0',function (data) {
+       console.log(data)
+    })
+
+    //分页
+    var num =0
+    var $aS = $('.pagination>a')
+    $aS.each(function (index,item) {
+      item.onclick = function () {
+        //发请求
+        getComments(index)
+
+      }
+    })
+    // 两层遍历
+
+
+
+    function getComments(page) {
+      var $aC = $('.page_bar>a')
+      // 如果页面为1，1为红色，其他为灰色
+      if(page == 0){
+        $($aC[1]).addClass('.greycolor')
+        $($aC[0]).removeClass('.greycolor')
+      }else if (page == $aS.length-1) {
+        $($aC[1]).addClass('.greycolor')
+        $($aC[0]).removeClass('.greycolor')
+      }else  {
+        $($aC[1]).addClass('.greycolor')
+        $($aC[0]).removeClass('.greycolor')
+      }
+      $.get('http://localhost:3000/comments?page='+page,function (data) {
+        console.log(data)
+        // $('.project_content').html(template('temp4',{comment:data}))
+
+      })
+    }
+  })
+</script>
+</html>

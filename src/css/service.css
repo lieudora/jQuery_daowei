@@ -1,3 +1,35 @@
+@-moz-keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+@-webkit-keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+@-o-keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+@keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
 #wrap {
   width: 100%;
   height: 100%;
@@ -8,12 +40,18 @@
   font-size: 16px;
 }
 #wrap .header .header_content {
+  width: 100%;
+  height: 100%;
+}
+#wrap .header .header_content.on {
   z-index: 5;
   width: 100%;
   height: 62px;
   position: fixed;
   background: white;
   opacity: 0.9;
+  box-shadow: 0 1px 3px darkgrey;
+  animation: show 1s ease;
 }
 #wrap .header .header_content .header_nav {
   width: 1200px;
